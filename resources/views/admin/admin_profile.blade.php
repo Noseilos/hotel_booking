@@ -40,7 +40,7 @@
                                     <img src="{{ (!empty($profileData->photo)) ? url('upload/admin_images/'.$profileData->photo) : url('upload/no_image.jpg') }}" alt="Admin" class="rounded-circle p-1 bg-primary" width="110">
                                     <div class="mt-3">
                                         <h4>{{ $profileData->name }}</h4>
-                                        <p class="text-secondary mb-1">{{ $profileData->name }}</p>
+                                        <p class="text-secondary mb-1">{{ $profileData->email }}</p>
                                         <p class="text-muted font-size-sm">{{ $profileData->address }}</p>
                                     </div>
                                 </div>

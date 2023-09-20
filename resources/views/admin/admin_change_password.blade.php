@@ -61,7 +61,7 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="card">
-                            <form action="{{ route('admin.profile.store') }}" method="POST" enctype="multipart/form-data">
+                            <form action="{{ route('admin.password.update') }}" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="card-body">
                                     <div class="row mb-3">
